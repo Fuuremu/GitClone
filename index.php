@@ -36,3 +36,5 @@
   if(is_uploaded_file($_FILES["avatar"]["tmp_name"])) {
    move_uploaded_file($_FILES["avatar"]["tmp_name"], $target);}
  ?>
+
+ Ceci est une modification
